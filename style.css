@@ -142,17 +142,9 @@ footer {
         padding: 0.4rem 0.8rem;
         white-space: nowrap;
     }
-    
-    .grid-libros {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width: 480px) {
-    .grid-libros {
-        grid-template-columns: 1fr;
-    }
-
     header h1 {
         font-size: 1.1rem;
     }
@@ -161,6 +153,7 @@ footer {
         gap: 0.3rem;
     }
 
+    
     nav li {
         display: flex;
         flex-direction: row;
@@ -172,9 +165,8 @@ footer {
         height: 15px;
     }
 
-
     nav a {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         padding: 0.3rem 0.5rem;
     }
 }
